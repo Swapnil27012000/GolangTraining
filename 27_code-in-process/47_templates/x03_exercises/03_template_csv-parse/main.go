@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/GoesToEleven/GolangTraining/47_templates/04_template_csv-parse/parse"
 	"html/template"
 	"log"
 	"net/http"
+
+	"github.com/Swapnil27012000/GolangTraining/47_templates/04_template_csv-parse/parse"
 )
 
 func main() {

@@ -2,13 +2,14 @@ package API
 
 import (
 	"fmt"
-	"github.com/GoesToEleven/GolangTraining/56_twitter/19_abstract-API-Model_AE-fix/Model"
+	"io/ioutil"
+	"net/http"
+
+	"github.com/Swapnil27012000/GolangTraining/56_twitter/19_abstract-API-Model_AE-fix/Model"
 	"github.com/julienschmidt/httprouter"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"
 	"google.golang.org/appengine/log"
-	"io/ioutil"
-	"net/http"
 )
 
 func CheckUserName(res http.ResponseWriter, req *http.Request, _ httprouter.Params) {

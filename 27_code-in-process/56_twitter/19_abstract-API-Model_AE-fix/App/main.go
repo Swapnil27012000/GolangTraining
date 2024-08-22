@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/GoesToEleven/GolangTraining/56_twitter/19_abstract-API-Model_AE-fix/API"
-	"github.com/GoesToEleven/GolangTraining/56_twitter/19_abstract-API-Model_AE-fix/Memcache"
-	"github.com/julienschmidt/httprouter"
 	"html/template"
 	"net/http"
+
+	"github.com/Swapnil27012000/GolangTraining/56_twitter/19_abstract-API-Model_AE-fix/API"
+	"github.com/Swapnil27012000/GolangTraining/56_twitter/19_abstract-API-Model_AE-fix/Memcache"
+	"github.com/julienschmidt/httprouter"
 )
 
 var tpl *template.Template
